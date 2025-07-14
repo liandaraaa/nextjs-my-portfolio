@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb; /* Equivalent to bg-gray-50 */
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Equivalent to bg-white/80 */
+  backdrop-filter: blur(10px); /* Equivalent to backdrop-blur-md */
+  z-index: 50;
+  border-bottom: 1px solid #e5e7eb; /* Equivalent to border-b */
+}
+
+.navContent {
+  max-width: 96rem; /* Equivalent to max-w-6xl */
+  margin: 0 auto;
+  padding: 0 1rem; /* Equivalent to px-4 */
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0; /* Equivalent to py-4 */
+}
+
+.navLink {
+  color: #374151; /* Equivalent to text-gray-700 */
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #f97316; /* Equivalent to hover:text-orange-500 */
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.heroTitle {
+  font-size: 4rem; /* Equivalent to text-6xl */
+  font-weight: bold;
+  color: #f97316; /* Equivalent to text-orange-500 */
+  margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+  text-align: center;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  color: #fb923c; /* Equivalent to text-orange-400 */
+  margin-bottom: 2rem; /* Equivalent to mb-8 */
+  text-align: center;
+}
+
+.heroButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.heroButtonsRow {
+  flex-direction: row;
+}
